@@ -5,8 +5,7 @@
   "type": "module",
   "license": "GPL-3.0-or-later",
   "scripts": {
-    "eslint": "wrap () { eslint ./src/${1}; }; wrap",
-    "winlint": "eslint"
+    "eslint": "eslint \"**/*.js\""
 
   },
   "dependencies": {

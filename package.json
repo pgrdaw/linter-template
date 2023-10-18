@@ -5,10 +5,13 @@
   "type": "module",
   "license": "GPL-3.0-or-later",
   "scripts": {
-    "eslint": "eslint \"**/*.js\""
-
+    "eslint": "eslint \"src/*.js\"",
+    "eslintfile": "eslint -- "
   },
   "dependencies": {
     "eslint": "^8.23.1"
+  },
+  "devDependencies": {
+    "eslint-plugin-html": "^7.1.0"
   }
 }
